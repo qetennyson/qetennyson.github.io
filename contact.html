@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Learn - Understanding the Image</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./cover_files/bootstrap.min.css" rel="stylesheet">
+    <!-- Cover Template CSS -->
+    <link href="./cover_files/cover.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./qcustom.css" rel="stylesheet">
+
+    
+    <!-- JQuery Ref -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+
+<style>
+body {
+  background-image: url("https://urbanmini.files.wordpress.com/2013/08/79gvngo.jpg");
+  background-position: center;
+}
+h3 a {
+	color: #e5d5f6;
+}
+
+h3 a:hover {
+	color: #f4bf6d;
+}
+
+</style>
+
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">understanding the image</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="learn.html">Learn</a></li>
+                  <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+      <div class="contactcontainer">
+      	<form role="form">
+      		<div class="form-group">
+          		<label for="name">Name</label>
+          		<input type="name" class="form-control" id="text">
+          	</div>
+
+      	<form role="form">
+      		<div class="form-group">
+          		<label for="email">Email</label>
+          		<input type="email" class="form-control" id="email">
+          	</div>
+
+      	<form role="form">
+      		<div class="form-group">
+      			<label for="textarea">Comments</label>
+      			<textarea type="textarea" class="form-control" id="textarea" rows="10"></textarea>
+      		</div>
+
+		<form role="form">
+			<div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg" id="contactsubmit">Submit</button>
+            </div>
+      		</div>
+      	</form>
+      </div>
+
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p style="color:white";>by Quincy Tennyson - 2016</p>
+            </div>
+          </div>
+
+
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script href="./cover_files/bootstrap.min.js"></script>
+    
+     <!-- Submit Contact Feedback Button -->
+     <script>
+    $(document).ready(function() {
+    	$('#contactsubmit').click(function() {
+    		alert("Thanks for your feedback!");
+    	});
+    });
+    </script>
+ 
+
+  </body>
+</html>
